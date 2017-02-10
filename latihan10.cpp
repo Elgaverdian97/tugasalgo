@@ -16,7 +16,7 @@ int main() {
 		cout << "Masukan bilangan 1 :";
 		cin >> a; // buat falidasi inputan untuk variable a
 		cout << "Masukan bilangan 2 :";
-		cin >> b; // buat falidsi inputan untuk variable b
+		cin >> b; // buat falidasi inputan untuk variable b
 		cout << endl;
 
 hasiltambah(a,b); // jalankan fungsi buatan hasil tambah
