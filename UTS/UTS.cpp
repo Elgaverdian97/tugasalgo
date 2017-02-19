@@ -17,7 +17,7 @@ int bagi2  (int a, int b);
     
 int main () {
 
-						// Kamus    
+			// Kamus    
     int a,b ;    
     cout << "======== > Kalkulator Elga < ========" << endl << endl;
     
@@ -31,7 +31,7 @@ int main () {
     
     cout << endl; // Enter
     
-						//ARITMATIKA
+		 	//ARITMATIKA
     cout << "======== > Hasil Aritmatika< ========" << endl << endl;
     
     // Pertambahan
@@ -51,11 +51,11 @@ int main () {
     
 	
 	
-						//RELASIONAL
+			//RELASIONAL
     
 cout << "======== > Hasil Relasional < ========" << endl << endl;
     
-//Jika Angka ke-1 Sama dengan B (==)
+//Jika Angka ke-1 Sama dengan Angka ke-2 (==)
 if (a == b) { cout <<" Angka ke-1 sama dengan Angka ke-2  " << endl; } 
 else { cout << " Angka ke-1 Tidak sama dengan Angka ke-2 " << endl; }
  
