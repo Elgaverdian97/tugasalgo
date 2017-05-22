@@ -1,0 +1,54 @@
+﻿REVIEW PROGRAM SEQUENSIAL
+
+
+pada program ini menghasilkan suatu output ,saya memberi masukan data ada 7 data dalam program ini.
+untuk penjelasan programnya , dimana pada program ini dijelaskan bahwa:
+	int i;
+	int cari,ketemu;
+	int A[100];
+	
+	Dijelaskan diatas bahwa , di deklarasikan variable "i" ke integer karena sebagai batas untuk kondisi pencarian,
+	variable "cari" bertipe data integer karena untuk memasukan bilangan berupa angka, dan varible "ketemu" sebagai integer untuk
+	memberi nilai jika data ditemukan, dan index data pada variable "A" yang memiliki jumlah data 100 diberi tipe data integer.
+	
+selanjutnya pada script:
+	for (i=1;i<=7;i++)
+	{
+		cout <<"Masukan data ke-"<<i<<" = ";
+		cin>>A[i];
+				
+	}
+diatas script untuk memasukan data satu persatu , sesuai dengan jumlah data yang ingin dimasukan , diatas dijelaskan 7 data
+maka yang akan terinput 7 data diinput secara manual oleh keyboard secara berulang sampai perulangan berhenti dan ditampung pada variable A indeks ke i.
+
+di bawah ini penjelasan untuk bagian script pencariannya.
+
+cin>>cari;
+
+ ketemu=0;
+ for(i=0;i<=7;i++)
+ {
+  if(A[i]==cari)
+  {
+   ketemu=1;
+   cout<<"Data ditemukan pada indeks ke-"<<i;
+  }
+ }
+ if(ketemu==0){
+  cout<<"Data tidak ditemukan";
+ }
+ 
+
+Dijelaskan pada script diatas, bahwa program dengan algoritma pencarian linier, dimana kita menginput apa yang akan kita cari maka algoritmanya
+akan bekerja untuk mencari dimana algoritmanya yaitu jika i kurang dari sama dengan 7 maka akan dikerjakan if yang memiliki syarat nilai variable A indeks ke i
+harus sama dengan nilai yang ingin kita cari  diketik , jika kondisi benar maka nilai dari variable ketemu akan bernilai 1,
+dan akan muncul keterangan bahwa "Data ditemukan pada indeks ke –" i (nilai i awal akan ditambah jika pernyaraan sudah dikerjakan) 
+sesuai dengan jumlah i nya berapa akan ditambah jika pernyataan sudah dikerjakan dan akan diulang jika benar dan jika salah pun akan diulang lagi
+sampai i bernilai 8 atau bernilai false, jika kondisi salah maka akan ditampilkan keterangan bahwa"Data tidak ditemukan".
+ 
+ 
+ 
+ 
+ 
+ 
+ 
