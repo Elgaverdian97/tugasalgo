@@ -43,8 +43,7 @@ Dijelaskan pada script diatas, bahwa program dengan algoritma pencarian linier, 
 akan bekerja untuk mencari dimana algoritmanya yaitu jika i kurang dari sama dengan 7 maka akan dikerjakan if yang memiliki syarat nilai variable A indeks ke i
 harus sama dengan nilai yang ingin kita cari  diketik , jika kondisi benar maka nilai dari variable ketemu akan bernilai 1,
 dan akan muncul keterangan bahwa "Data ditemukan pada indeks ke –" i (nilai i awal akan ditambah jika pernyaraan sudah dikerjakan) 
-sesuai dengan jumlah i nya berapa akan ditambah jika pernyataan sudah dikerjakan dan akan diulang jika benar dan jika salah pun akan diulang lagi
-sampai i bernilai 8 atau bernilai false, jika kondisi salah maka akan ditampilkan keterangan bahwa"Data tidak ditemukan".
+sesuai dengan jumlah i nya berapa akan ditambah jika pernyataan sudah dikerjakan dan akan diulang jika benar dan jika salah pun akan diulang lagi sampai i bernilai 8 atau bernilai false, jika kondisi salah maka akan ditampilkan keterangan bahwa"Data tidak ditemukan".
  
  
  
