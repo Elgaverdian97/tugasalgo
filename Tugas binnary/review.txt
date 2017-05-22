@@ -1,0 +1,17 @@
+PROGRAM BINNARY
+
+Pertama mengambil data pada posisi awal=1 dan akhir =n
+mengambil posisi tengah dengan cara membagi dua dari jumlah awal dan akhir, misalnya data akhir adalah 9 maka data tengah adalah 9 + 1 = 10, 10/2 = 5
+Setelah data tengah didapat, kemudian bandingkan dengan keyword atau kata kunci jika sama maka proses selesai. Jika lebih kecil,
+proses dilakukan kembali tetapi posisi akhir dianggap sama dengan posisi tengah -1,
+Jika lebih besar proses dilakukan kembali tetapi posisi awal dianggap sama dengan posisi tengah +1
+Mengulai langkah ke dua hingga berakhir.
+Proses akan berhenti jika data ditemukan. jika posisi awal sudah lebih besar dari posisi akhir berarti data tidak ditemukan.
+
+contoh dalam program ini terdapat data = {1,2,3,4,5,6,7,8,9,10}
+
+mencari 6 yang terletak pada data ke 5
+
+(1 + 9 ) / 2 = 5  data kelima nilainya 5 berarti tidak sama, maka akan dilakukan perncarian lagi. periksa apakah data ke 5 (5) < 6..?. ya . maka data tengah - 1.
+
+(4+9)/2 = 6,5 dibulatkan menjadi 6 nilai data ke 6 adalah 75 dan data sama dengan nilai pencarian. Proses berhenti.
